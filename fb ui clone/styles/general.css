@@ -1,0 +1,42 @@
+:root {
+    --navbar-color: #242526;
+    --body-color: #18191A;
+    --textinput-color: #3A3B3C;
+    --dark-grey: #B0B3B8;
+    --middle-grey: #DFE1E6;
+    --low-grey: #E4E6EB;
+    --blue: #2D88FF;
+    --red: #F02849;
+    --green: #45BD62;
+    --yellow: #F7B928;
+    --white: #FFFFFF;
+}
+
+/* scrollbar properties */
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 8px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: var(--body-color);
+    border-radius: 8px;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #4e4c4c;
+    border-radius: 8px;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-track:hover {
+    background: rgb(56, 54, 54);
+}

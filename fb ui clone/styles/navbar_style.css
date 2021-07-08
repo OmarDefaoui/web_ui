@@ -1,0 +1,149 @@
+@import "general.css";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar */
+
+.navbar {
+    background-color: var(--navbar-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 2px -2px rgba(255, 255, 255, 0.4);
+    padding-left: 12px;
+    padding-right: 12px;
+    height: 55px;
+}
+
+/* navbar_left */
+
+.navbar_left {
+    display: flex;
+    align-items: center;
+    width: 22%;
+}
+
+#fb_logo {
+    width: 45px;
+    height: 45px;
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+.input_container {
+    background-color: var(--textinput-color);
+    border-radius: 25px;
+    align-items: center;
+    display: flex;
+    height: 40px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#search_input {
+    border: none;
+    background-color: var(--textinput-color);
+    font-size: 15px;
+}
+
+::placeholder {
+    color: #a8abaf;
+}
+
+#search_input:focus {
+    outline: none;
+}
+
+#search_icon {
+    color: #a8abaf;
+    margin-right: 4px;
+}
+
+/* navbar_center */
+
+.navbar_center {
+    align-items: center;
+    display: flex;
+    width: 45%;
+    justify-content: space-evenly;
+}
+
+.navbar_center a {
+    text-decoration: none;
+    color: var(--dark-grey);
+}
+
+.navbar_center a span {
+    width: 100px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.navbar_center a span:hover {
+    height: 50px;
+    background-color: var(--textinput-color);
+    border-radius: 10px;
+    border: none;
+}
+
+.navbar_center a .navbar_center_selected {
+    color: var(--blue);
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+}
+
+/* navbar_right */
+
+.navbar_right {
+    display: flex;
+    align-items: center;
+    width: 22%;
+}
+
+.profile_container {
+    border-radius: 25px;
+    align-items: center;
+    display: flex;
+    height: 35px;
+    padding-left: 2px;
+    padding-right: 12px;
+}
+
+.profile_container:hover {
+    background-color: var(--textinput-color);
+    cursor: pointer;
+}
+
+.profile_container #profile_icon {
+    width: 35px;
+    height: 35px;
+    margin-right: 4px;
+}
+
+.profile_container #profile_name {
+    color: #DFE1E6;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.navbar_right_items a {
+    text-decoration: none;
+    color: var(--dark-grey);
+}
+
+.navbar_right_items a span {
+    background-color: var(--textinput-color);
+    border-radius: 100%;
+    padding: 8px;
+    margin-left: 4px;
+}
+
+.navbar_right_items a span:hover {
+    background-color: #414142;
+}

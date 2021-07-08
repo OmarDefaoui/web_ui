@@ -1,0 +1,320 @@
+@import "general.css";
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #18191a;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px 0 10px;
+    overflow: hidden;
+}
+
+/* left side */
+
+.content_left {
+    width: 22%;
+    height: 90vh;
+    overflow-y: auto;
+    padding-right: 3px;
+}
+
+.element {
+    align-items: center;
+    display: flex;
+    height: 52px;
+}
+
+.element:hover {
+    background-color: var(--textinput-color);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.element_icon {
+    width: 38px;
+    height: 38px;
+    margin-right: 6px;
+}
+
+.element_text {
+    color: #e7e9ed;
+}
+
+.separator {
+    width: 100%;
+    height: 1px;
+    background-color: var(--textinput-color);
+    margin: 10px 0 15px 0;
+}
+
+.element_title {
+    color: #a8abaf;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 4px;
+}
+
+/* center side */
+
+.content_center {
+    width: 41%;
+    height: 90vh;
+    overflow-y: auto;
+    padding-right: 3px;
+}
+
+.content_center .stories {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    margin-top: 6px;
+}
+
+.content_center .stories .add_story {
+    width: 118px;
+    height: 250px;
+    background-image: url("../assets/story.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 8px;
+}
+
+.content_center .stories .story_title {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: black;
+}
+
+.content_center .stories .container {
+    width: 100%;
+    text-align: center;
+}
+
+.content_center .stories .add_story .container a {
+    color: #a8abaf;
+    text-decoration: none;
+}
+
+.content_center .stories .add_story .container .btn_container {
+    background-color: #2D88FF;
+    color: white;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    margin-left: 48px;
+}
+
+.content_center .stories .story {
+    width: 118px;
+    height: 250px;
+    background-image: url("../assets/story.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 8px;
+}
+
+.content_center .add_post {
+    background-color: var(--navbar-color);
+    border-radius: 12px;
+    margin-bottom: 18px;
+    padding: 10px;
+}
+
+.content_center .add_post .header {
+    display: flex;
+    align-items: center;
+}
+
+.content_center .add_post .reactions {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.reactions .reaction {
+    align-items: center;
+    display: flex;
+    padding: 8px;
+}
+
+.reactions .reaction:hover {
+    background-color: var(--textinput-color);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.reactions .reaction .reaction_text {
+    color: #b7b8bb;
+}
+
+.content_center .posts .post {
+    background-color: var(--navbar-color);
+    border-radius: 12px;
+    margin-bottom: 18px;
+    padding: 10px 0 10px 0;
+}
+
+.content_center .posts .post .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px 0 10px;
+}
+
+.content_center .posts .post .header a {
+    color: #a8abaf;
+    text-decoration: none;
+}
+
+.content_center .posts .post .header .user_info {
+    display: flex;
+    align-items: center;
+}
+
+.content_center .posts .post .header .user_info .data .details {
+    display: flex;
+    align-items: center;
+    color: #a8abaf;
+}
+
+.content_center .posts .post .content {
+    display: block;
+    text-align: start;
+    padding: 8px 0 4px 0;
+}
+
+.content_center .posts .post .reactions_data {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #a8abaf;
+    padding: 0 10px 0 10px;
+}
+
+.content_center .posts .post .reactions {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 10px 0 10px;
+}
+
+.content_center .posts .post .reactions span {
+    color: #a8abaf;
+    margin-right: 6px;
+}
+
+/* right side */
+
+.content_right {
+    width: 22%;
+    height: 90vh;
+    overflow-y: auto;
+    padding-right: 3px;
+}
+
+.content_right .invitation_container {
+    padding: 10px 10px 20px 10px;
+    background-color: var(--navbar-color);
+    border-radius: 15px;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 6px;
+}
+
+.content_right .invitation_container .invitation_container_title {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+}
+
+.content_right .invitation_container .title {
+    align-items: center;
+    display: flex;
+}
+
+.content_right .invitation_container a {
+    color: #a8abaf;
+    text-decoration: none;
+}
+
+.content_right .invitation_container a:hover {
+    background-color: var(--navbar-color);
+    border-radius: 100%;
+    border: none;
+}
+
+.content_right .invitation_container_content {
+    display: flex;
+}
+
+.content_right .invitation_container_content .content {
+    display: inline-block;
+    flex: 1;
+    padding-top: 0;
+    vertical-align: top;
+}
+
+.content_right .invitation_container_content .content .head_content {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 4px;
+}
+
+.content_right .invitation_container_content .content .detail_content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.content_right .invitation_container_content .content .footer_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content_right .invitation_container_content .content .footer_content .btn_positive {
+    background-color: #2d88ff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    width: 48%;
+}
+
+.content_right .invitation_container_content .content .footer_content .btn_negative {
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    width: 48%;
+}
+
+.content_right .contacts_title_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content_right .contacts_title_container .actions_container a {
+    color: #a8abaf;
+    text-decoration: none;
+}
+
+.content_right .contacts_title_container .actions_container a:hover {
+    color: #3A3B3C;
+}
