@@ -1,0 +1,93 @@
+@import "variables.css";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+}
+
+.main .content {
+    flex: 1;
+    background-color: #000000;
+}
+
+/* Chips */
+
+.content .chips {
+    background-color: #202020;
+    height: 40px;
+    border-top: 1px solid #313131;
+    border-bottom: 1px solid #313131;
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    justify-content: space-between;
+}
+
+.content .chips .chip {
+    padding: 6px 15px 6px 15px;
+    background-color: #373737;
+    border-radius: 25px;
+    border: 1px solid #4e4e4e;
+    cursor: pointer;
+}
+
+.content .chips .chip_text {
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.content .chips .chip_selected {
+    background-color: white;
+}
+
+.content .chips .chip_selected span {
+    color: black;
+}
+
+/* Video */
+
+.content .videos {
+    width: 600px;
+    width: 400px;
+    background-color: green;
+}
+
+.video .header .thumbnail {
+    width: 600px;
+    width: 400px;
+}
+
+.video .header .duration {
+    background-color: black;
+}
+
+.video .footer .author_icon {
+    width: 45px;
+    height: 45px;
+}
+
+.video .header .video_data {
+    display: flex;
+}
+
+.video .header .video_data .title {
+    color: white;
+}
+
+.video .header .video_data .author_name {
+    color: white;
+}
+
+.video .header .video_data .video_stats {
+    color: white;
+}

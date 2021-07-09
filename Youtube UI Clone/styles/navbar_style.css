@@ -1,0 +1,81 @@
+@import "variables.css";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #202020;
+    padding: 10px 20px 10px 20px;
+    height: 40px;
+}
+
+.navbar_left, .navbar_center, .navbar_right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar span {
+    color: #ffffff;
+    margin-right: 20px;
+    font-size: 24px;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+/* navbar left */
+
+.navbar_left #youtube_logo {
+    width: 100px;
+}
+
+/* navbar center */
+
+.navbar_center form {
+    width: 600px;
+    height: 30px;
+    background-color: #121212;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    margin-right: 15px;
+}
+
+.navbar_center form input {
+    width: 534px;
+    height: 30px;
+    padding: 0 10px 0 10px;
+    background-color: #121212;
+    border: none;
+    color: white;
+    border: 1px solid #313131
+}
+
+.navbar_center form button {
+    width: 66px;
+    height: 32px;
+    background-color: #313131;
+    border: 1px solid #313131;
+}
+
+.navbar_center form button span{
+    color: #6e6e6e;
+    margin-right: 0px;
+    font-size: 20px;
+}
+
+/* navbar right */
+
+.navbar_right #user_icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
