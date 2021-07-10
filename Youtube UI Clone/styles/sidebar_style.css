@@ -21,6 +21,7 @@
 
 .sidebar .element:hover {
     background-color: #383838;
+    cursor: pointer;
 }
 
 .sidebar .element_text {

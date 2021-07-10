@@ -46,6 +46,7 @@
     align-items: center;
     justify-content: space-between;
     border: none;
+    outline: none;
     margin-right: 15px;
 }
 
@@ -56,17 +57,26 @@
     background-color: #121212;
     border: none;
     color: white;
-    border: 1px solid #313131
+    outline: 1px solid #313131;
+}
+
+.navbar_center form input:focus {
+    outline: #105fbe solid 1px;
 }
 
 .navbar_center form button {
     width: 66px;
-    height: 32px;
+    height: 31px;
+    margin-left: 0.22mm;
     background-color: #313131;
-    border: 1px solid #313131;
+    border: none;
 }
 
-.navbar_center form button span{
+.navbar_center form button:hover {
+    cursor: pointer;
+}
+
+.navbar_center form button span {
     color: #6e6e6e;
     margin-right: 0px;
     font-size: 20px;
@@ -78,4 +88,8 @@
     width: 36px;
     height: 36px;
     border-radius: 50%;
+}
+
+.navbar_right #user_icon:hover {
+    cursor: pointer;
 }
