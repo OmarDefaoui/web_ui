@@ -9,8 +9,8 @@ Note: This is only a basic version of the UI, a responsive design will be added 
 
 # YouTube UI Clone
 
+A YouTube UI Clone with responsive design.
+
 <div style="display: inline-block; width: 100%;">
     <img src="screenshots/YouTube Clone/ytb_clone_s1.png" width="100%"></img>
 </div>
-
-Note: This is only a basic version of the UI, a responsive design will be added later.

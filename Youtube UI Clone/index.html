@@ -15,13 +15,14 @@
     <link rel="stylesheet" href="styles/navbar_style.css">
     <link rel="stylesheet" href="styles/sidebar_style.css">
     <link rel="stylesheet" href="styles/content_style.css">
+    <link rel="stylesheet" href="styles/responsive.css">
 </head>
 
 <body>
     <header>
         <div class="navbar">
             <div class="navbar_left">
-                <a href="#">
+                <a id="menu" href="#">
                     <span class="material-icons">
                         menu
                     </span>
@@ -46,17 +47,22 @@
             </div>
 
             <div class="navbar_right">
-                <a href="#">
+                <a class="shrink_search" href="#">
                     <span class="material-icons">
+                        search
+                    </span>
+                </a>
+                <a class="right_icon" href="#">
+                    <span class="material-icons right_icon">
                         video_call
                     </span>
                 </a>
-                <a href="#">
+                <a class="right_icon" href="#">
                     <span class="material-icons">
                         apps
                     </span>
                 </a>
-                <a href="#">
+                <a class="right_icon" href="#">
                     <span class="material-icons">
                         notifications
                     </span>
@@ -340,6 +346,8 @@
             </div>
         </div>
     </main>
+
+    <script src="navbar_menu.js"></script>
 </body>
 
 </html>
