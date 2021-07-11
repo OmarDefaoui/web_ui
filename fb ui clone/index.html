@@ -14,6 +14,7 @@
     <!-- import styles -->
     <link rel="stylesheet" href="styles/navbar_style.css">
     <link rel="stylesheet" href="styles/main_style.css">
+    <link rel="stylesheet" href="styles/responsive.css">
 </head>
 
 <body>
@@ -22,12 +23,15 @@
         <div class="navbar">
             <div class="navbar_left">
                 <img id="fb_logo" src="assets/facebook.png" alt="facebook icon">
-                <div class="input_container">
+                <div class="search_input_container">
                     <span class="material-icons" id="search_icon">
                         search
                     </span>
                     <input id="search_input" type="text" name="search input" placeholder="Rechercher sur Facebook" />
                 </div>
+                <span class="material-icons" id="navbar_menu">
+                    menu
+                </span>
             </div>
 
             <div class="navbar_center">
@@ -65,17 +69,17 @@
                     <span id="profile_name">Omar</span>
                 </div>
                 <div class="navbar_right_items">
-                    <a href="#">
+                    <a class="dismiss_shrink" href="#">
                         <span class="material-icons">
                             apps
                         </span>
                     </a>
-                    <a href="#">
+                    <a class="dismiss_shrink" href="#">
                         <span class="material-icons">
                             email
                         </span>
                     </a>
-                    <a href="#">
+                    <a class="dismiss_shrink" href="#">
                         <span class="material-icons">
                             notifications
                         </span>
@@ -184,7 +188,7 @@
                     <div class="header">
                         <img id="fb_logo" src="assets/facebook.png" alt="">
                         <div class="input_container">
-                            <input id="search_input" type="text" name="search input"
+                            <input id="addpost_input" type="text" name="search input"
                                 placeholder="Quoi de neuf, Omar?" />
                         </div>
                     </div>
@@ -204,7 +208,7 @@
                             </i>
                             <span class="reaction_text">Photo/Vidéo</span>
                         </div>
-                        <div class="reaction">
+                        <div id="reaction_shrink" class="reaction">
                             <i
                                 style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/y0/r/O2vKlc-Hpp5.png?_nc_eui2=AeFw-xeC4mntAj4TRUEGq4C9FLMRyoQlDGEUsxHKhCUMYQ1fSusGN2l9oxmsIfrwQW5hpABSMNRkvTRU3IHS3jl2&quot;); background-position: 0px -26px; background-size: 26px 376px; width: 24px; height: 24px; background-repeat: no-repeat; display: inline-block; margin-right: 6px;">
                             </i>
@@ -260,19 +264,19 @@
                                 <span class="material-icons">
                                     thumb_up
                                 </span>
-                                <span class="reaction_text">J'aime</span>
+                                <span class="reaction_text dismiss_shrink">J'aime</span>
                             </div>
                             <div class="reaction">
                                 <span class="material-icons">
                                     chat_bubble_outline
                                 </span>
-                                <span class="reaction_text">Commenter</span>
+                                <span class="reaction_text dismiss_shrink">Commenter</span>
                             </div>
                             <div class="reaction">
                                 <span class="material-icons">
                                     share
                                 </span>
-                                <span class="reaction_text">Partager</span>
+                                <span class="reaction_text dismiss_shrink">Partager</span>
                             </div>
                         </div>
                     </div>

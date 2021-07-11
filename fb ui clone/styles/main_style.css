@@ -9,7 +9,7 @@ body {
 .content {
     display: flex;
     justify-content: space-between;
-    padding: 20px 10px 0 10px;
+    padding: 20px 10px 20px 10px;
     overflow: hidden;
 }
 
@@ -17,7 +17,7 @@ body {
 
 .content_left {
     width: 22%;
-    height: 90vh;
+    height: calc(100vh - 75px);
     overflow-y: auto;
     padding-right: 3px;
 }
@@ -62,7 +62,7 @@ body {
 
 .content_center {
     width: 41%;
-    height: 90vh;
+    height: calc(100vh - 75px);
     overflow-y: auto;
     padding-right: 3px;
 }
@@ -76,7 +76,7 @@ body {
 }
 
 .content_center .stories .add_story {
-    width: 118px;
+    width: 19%;
     height: 250px;
     background-image: url("../assets/story.jpg");
     background-repeat: no-repeat;
@@ -98,6 +98,9 @@ body {
 .content_center .stories .container {
     width: 100%;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .content_center .stories .add_story .container a {
@@ -112,11 +115,10 @@ body {
     width: 25px;
     height: 25px;
     padding: 5px;
-    margin-left: 48px;
 }
 
 .content_center .stories .story {
-    width: 118px;
+    width: 19%;
     height: 250px;
     background-image: url("../assets/story.jpg");
     background-repeat: no-repeat;
@@ -193,8 +195,12 @@ body {
 
 .content_center .posts .post .content {
     display: block;
-    text-align: start;
     padding: 8px 0 4px 0;
+}
+
+.content_center .posts .post .content .image img {
+    width: 100%;
+    height: 100%;
 }
 
 .content_center .posts .post .reactions_data {
@@ -221,7 +227,7 @@ body {
 
 .content_right {
     width: 22%;
-    height: 90vh;
+    height: calc(100vh - 75px);
     overflow-y: auto;
     padding-right: 3px;
 }
