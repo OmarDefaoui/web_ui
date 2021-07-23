@@ -39,17 +39,25 @@ nav ul {
     align-items: center;
 }
 
+nav ul li {
+    padding: 15px;
+}
+
 nav ul li a {
     text-decoration: none;
     color: white;
     font-size: 20px;
-    margin: 0 15px 0 15px;
 }
 
 .highlighted {
-    background-color: blue;
+    background-color: #00c2ff;
     color: white;
     padding: 15px 25px 15px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    width: 200px;
+    box-shadow: 0 0 5px grey;
 }
 
 main {
@@ -59,13 +67,21 @@ main {
 }
 
 main h1 {
-    color: blue;
+    color: #00c2ff;
     font-size: 70px;
+    margin-bottom: 8px;
 }
 
 main span {
     color: white;
     font-size: 40px;
+    margin-bottom: 16px;
+}
+
+main span a {
+    text-decoration: none;
+    color: red;
+    width: 100px;
 }
 
 footer {
@@ -90,7 +106,8 @@ footer ul li {
 }
 
 footer ul li strong {
-    color: blue;
+    color: #00c2ff;
+    margin-bottom: 2px;
 }
 
 footer ul li span {
