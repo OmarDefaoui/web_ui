@@ -14,3 +14,11 @@ A YouTube UI Clone with responsive design.
 <div style="display: inline-block; width: 100%;">
     <img src="screenshots/YouTube Clone/ytb_clone_s1.png" width="100%"></img>
 </div>
+
+# Automotive Car UI
+
+An Automotive Car UI with responsive design.
+
+<div style="display: inline-block; width: 100%;">
+    <img src="screenshots/Automotive Car/auto_ui_s1.png" width="100%"></img>
+</div>
