@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: red;
+}
+
+nav {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 10px 15px 0 15px;
+}
+
+nav .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav_menu, .nav_run, .nav_phone{
+    color: white;
+    font-size: 30px;
+}
