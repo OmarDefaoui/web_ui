@@ -5,8 +5,10 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: red;
+    display: flex;
+    flex-direction: column;
 }
 
 nav {
@@ -14,6 +16,7 @@ nav {
     align-items: baseline;
     justify-content: space-between;
     padding: 10px 15px 0 15px;
+    height: 110px;
 }
 
 nav .logo {
@@ -22,7 +25,97 @@ nav .logo {
     align-items: center;
 }
 
-.nav_menu, .nav_run, .nav_phone{
+.nav_menu, .nav_run, .nav_phone {
     color: white;
     font-size: 30px;
+}
+
+main {
+    height: calc(100vh - 110px);
+    width: 100vw;
+    position: fixed;
+}
+
+main .slide {
+    position: fixed;
+    width: 100vw;
+    height: 40%;
+    top: 25%;
+    display: flex;
+    transform: translateX(0);
+    overflow: hidden;
+}
+
+main .slide .image {
+    max-width: 100vw;
+    min-width: 100vw;
+    height: 100%;
+    text-align: center;
+}
+
+main .slide .image img {
+    width: 40%;
+    height: 100%;
+}
+
+main .slider {
+    display: flex;
+    position: fixed;
+}
+
+main .slider h1 {
+    font-size: 50px;
+    color: white;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 4px;
+    position: fixed;
+    top: 70%;
+    text-align: center;
+    left: 0;
+    right: 0;
+}
+
+main .slider a {
+    background-color: rgba(0, 0, 0, 0.452);
+    color: rgb(230, 220, 220);
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    border-radius: 5px;
+    width: 12%;
+    position: fixed;
+    top: 79%;
+    left: 44%;
+}
+
+main .slider button {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: white;
+    position: fixed;
+}
+
+main .slider button span {
+    font-size: 50px;
+}
+
+main .slider .indicators {
+    position: fixed;
+    width: 10%;
+    height: 40px;
+    bottom: 2%;
+    left: 45%;
+    background-color: black;
+}
+
+main .slider .left {
+    top: 50%;
+    left: 2%;
+}
+
+main .slider .right {
+    top: 50%;
+    right: 2%;
 }

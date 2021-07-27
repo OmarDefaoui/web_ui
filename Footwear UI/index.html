@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -26,12 +26,20 @@
     </nav>
 
     <main>
-
+        <div class="slide">
+            <div class="image"><img src="assets/shoe-1.jpg" alt=""></div>
+            <div class="image"><img src="assets/shoe-2.jpg" alt=""></div>
+            <div class="image"><img src="assets/shoe-3.jpg" alt=""></div>
+            <div class="image"><img src="assets/shoe-4.jpg" alt=""></div>
+        </div>
+        <div class="slider">
+            <h1>Performance</h1>
+            <a href="#">Learn More</a>
+            <button class="left"><span class="material-icons">arrow_back_ios</span></button>
+            <button class="right"><span class="material-icons">arrow_forward_ios</span></button>
+            <div class="indicators"></div>
+        </div>
     </main>
-
-    <footer>
-
-    </footer>
 </body>
 
 </html>
