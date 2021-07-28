@@ -1,14 +1,14 @@
 * {
     margin: 0;
     padding: 0;
-    overflow: hidden;
     box-sizing: border-box;
 }
 
 body {
-    background-color: red;
+    background-color: #cb021c;
     display: flex;
     flex-direction: column;
+    transition: background 0.4s ease-in-out;
 }
 
 nav {
@@ -43,7 +43,7 @@ main .slide {
     top: 25%;
     display: flex;
     transform: translateX(0);
-    overflow: hidden;
+    transition: transform 0.4s ease-in-out;
 }
 
 main .slide .image {
@@ -74,6 +74,7 @@ main .slider h1 {
     text-align: center;
     left: 0;
     right: 0;
+    transition: background 0.4s ease-in-out;
 }
 
 main .slider a {
@@ -85,7 +86,7 @@ main .slider a {
     border-radius: 5px;
     width: 12%;
     position: fixed;
-    top: 79%;
+    top: 80%;
     left: 44%;
 }
 
@@ -101,15 +102,6 @@ main .slider button span {
     font-size: 50px;
 }
 
-main .slider .indicators {
-    position: fixed;
-    width: 10%;
-    height: 40px;
-    bottom: 2%;
-    left: 45%;
-    background-color: black;
-}
-
 main .slider .left {
     top: 50%;
     left: 2%;
@@ -118,4 +110,23 @@ main .slider .left {
 main .slider .right {
     top: 50%;
     right: 2%;
+}
+
+main .slider .indicators {
+    position: fixed;
+    width: 6%;
+    height: 40px;
+    bottom: 2%;
+    left: 47%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+main .slider .indicators .indicator {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.6);
+    transition: background 0.4s ease-in-out;
 }
