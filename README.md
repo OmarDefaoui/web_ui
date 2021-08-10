@@ -25,9 +25,15 @@ An Automotive Car UI with responsive design.
 
 # Footwear UI
 
-An Footwear UI with responsive design.
+A Footwear UI with responsive design.
 
 <div style="display: inline-block; width: 100%;">
     <img src="screenshots/Footwear/1.png" width="100%"></img>
     <img src="screenshots/Footwear/2.png" width="100%"></img>
+</div>
+
+A Games Dashboard UI.
+
+<div style="display: inline-block; width: 100%;">
+    <img src="screenshots/Games Dashboard/1.png" width="100%"></img>
 </div>
