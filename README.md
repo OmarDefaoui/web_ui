@@ -32,6 +32,8 @@ A Footwear UI with responsive design.
     <img src="screenshots/Footwear/2.png" width="100%"></img>
 </div>
 
+# Games Dashboard UI
+
 A Games Dashboard UI.
 
 <div style="display: inline-block; width: 100%;">
