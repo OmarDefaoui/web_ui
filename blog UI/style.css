@@ -42,6 +42,7 @@ nav a {
 
 header {
     width: 50%;
+    max-width: 1000px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -77,6 +78,7 @@ header h1 span {
 
 main {
     width: 80%;
+    max-width: 1200px;
 }
 
 .large_article {
@@ -224,7 +226,7 @@ footer input{
 }
 
 footer button {
-    background-color: blue;
+    background-color: rgb(59, 130, 246);
     outline: none;
     border: none;
     height: 44px;
@@ -233,4 +235,27 @@ footer button {
     text-transform: uppercase;
     border-radius: 2rem;
     font-weight: 600;
+}
+
+/* Post page styles*/
+
+.full_article{
+    margin-top: 80px;
+    justify-content: center;
+}
+
+.full_article:hover{
+    background-color: transparent;
+}
+
+.full_article .left_side{
+    flex: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.full_article .left_side .post_image{
+    width: 300px;
+    height: auto;
 }
